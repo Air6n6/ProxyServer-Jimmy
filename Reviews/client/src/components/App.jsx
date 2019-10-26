@@ -1,11 +1,11 @@
 import React from 'react';
 import Axios from 'Axios';
 import Reviews from './Reviews.jsx';
-const styled = window.styled;
 import Rating from './Rating.jsx'
 import RatingsBars from './RatingsBars.jsx'
 import SearchBar from './SearchBar.jsx'
 import Pagination from './Pagination.jsx'
+const styled = window.styled;
 
 Axios.defaults.baseURL = 'http://localhost:3004'
 
